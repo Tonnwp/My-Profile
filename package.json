@@ -1,0 +1,31 @@
+{
+  "name": "my-profile",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coreui/coreui": "^4.3.2",
+    "@coreui/vue": "^4.10.1",
+    "@vueuse/motion": "^2.0.0",
+    "bootstrap": "^5.3.2",
+    "flowbite": "^2.2.0",
+    "flowbite-vue": "^0.1.0",
+    "tw-elements": "^1.0.0",
+    "vue": "^3.3.8",
+    "vue3-carousel": "^0.3.1",
+    "vuetify": "^3.4.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^4.4.17",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
+  }
+}
