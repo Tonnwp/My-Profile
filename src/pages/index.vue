@@ -1054,7 +1054,7 @@
           </svg>
           <span class="sr-only">Close modal</span>
         </button>
-          <img src="../assets/images/line-qr.jpg" class=" pt-20 px-20 py-10" />
+          <img src="../assets/images/line-qr.png" class=" pt-20 px-20 py-10" />
           <div class="flex items-center justify-center"><button
             type="button"
             class="py-2 px-14 mb-6 bg-pink rounded-lg text-slate-200"
