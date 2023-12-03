@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  darkMode: 'media',
+ 
 
   content: [
+    "./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js}",
-    "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite/**/*.js"
    
   ],
   theme: {
@@ -24,7 +26,7 @@ module.exports = {
     },
   },
   plugins: [
-    require("flowbite/plugin"),
+    require("flowbite"),
     require("daisyui")
   ],
 };
