@@ -1024,6 +1024,7 @@
     </div>
   </footer>
 
+  <!-- Modal -->
   <div
     id="popup-modal"
     tabindex="-1"
@@ -1053,7 +1054,7 @@
           </svg>
           <span class="sr-only">Close modal</span>
         </button>
-          <img src="../assets/images/line-qr.JPG" class=" pt-20 px-20 py-10" />
+          <img src="../assets/images/line-qr.jpg" class=" pt-20 px-20 py-10" />
           <div class="flex items-center justify-center"><button
             type="button"
             class="py-2 px-14 mb-6 bg-pink rounded-lg text-slate-200"
@@ -1065,6 +1066,7 @@
       </div>
     </div>
   </div>
+  <!-- End Modal -->
 
   <!-- End Footer -->
 </template>
