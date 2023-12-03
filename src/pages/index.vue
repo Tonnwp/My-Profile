@@ -40,7 +40,8 @@
           <li>
             <button
               @click="ClickToContact"
-              class="block py-2 px-3 text-gray-900 hover:text-pink rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              :class="{ 'active-button': activeSection === 'contact' }"
+              class="block py-2 px-3 {{ contactButtonColor }} text-gray-900 hover:text-pink rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
             >
               Contact
             </button>
