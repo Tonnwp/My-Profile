@@ -163,6 +163,7 @@
     <div
       class="py-52 max-w-7xl mx-auto px-10 mt-20"
       v-motion-slide-visible-once-bottom
+      :delay="500"
     >
       <p class="text-center text-4xl text-blue font-black">PROJECTS</p>
       <div class="md:flex justify-between mt-20 md:space-x-10 w-full">
