@@ -78,7 +78,7 @@
   </svg>
 
   <!-- Language and Tools -->
-  <div class="mb-10" id="tools"></div>
+  <div class="mb-14" id="tools"></div>
   <section class="py-10 mt-8 max-w-7xl mx-auto px-10" id="tools">
     <p class="text-center text-4xl text-blue">
       Language <span class="text-slate-600 dark:text-white">And</span>
@@ -161,7 +161,7 @@
   <!-- First Project -->
   <section class="bg-gray-50 dark">
     <div
-      class="py-52 max-w-7xl mx-auto px-10 mt-20"
+      class="pb-52 pt-32 max-w-7xl mx-auto px-10 mt-20"
       v-motion-slide-visible-once-bottom
       :delay="500"
     >
