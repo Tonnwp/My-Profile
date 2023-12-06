@@ -88,7 +88,7 @@
     <div class="flex items-center justify-center">
       <div class="grid mx-auto md:grid-cols-4 grid-cols-2 gap-12 mt-20">
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -101,7 +101,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -114,7 +114,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -127,7 +127,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -140,7 +140,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -153,7 +153,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -166,7 +166,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -179,7 +179,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -192,7 +192,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
@@ -205,7 +205,7 @@
         </div>
 
         <div
-          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
         >
           <div class="">
             <img
