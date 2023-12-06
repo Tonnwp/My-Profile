@@ -51,8 +51,8 @@
     </div>
   </nav>
 
-  <section class="bg-background pt-20 w-full" id="about-me">
-    <header class="max-w-7xl mx-auto px-10">
+  <header class="bg-background pt-20 w-full" id="about-me">
+    <div class="max-w-7xl mx-auto px-10">
       <div class="md:flex justify-evenly pt-10 items-center">
         <div class="space-y-2 text-white">
           <h1 class="font-lato text-4xl text-pink text-center">
@@ -66,8 +66,8 @@
         </div>
         <img src="../assets/images/ton.png" class="mt-10 md:mt-0" alt="" />
       </div>
-    </header>
-  </section>
+    </div>
+  </header>
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path
@@ -78,78 +78,143 @@
   </svg>
 
   <!-- Language and Tools -->
-  <div class="mb-14" id="tools"></div>
-  <section class="py-10 mt-8 max-w-7xl mx-auto px-10" id="tools">
+  <div class="mb-24 "  id="tools"></div>
+
+  <section class="max-w-7xl mx-auto px-10 mt-10" >
     <p class="text-center text-4xl text-blue">
       Language <span class="text-slate-600 dark:text-white">And</span>
       <span class="text-pink"> DevTools</span>
     </p>
-    <div class="md:flex items-center justify-evenly">
-      <div
-        class="space-y-6 mt-14 text-xl md:px-32 py-10 rounded-xl shadow-blue shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] dark:bg-slate-50 dark:text-black"
-      >
-        <div class="flex justify-center w-40 mx-auto">
-          <img class="w-16 h-16" src="../assets/images/icons/java.svg" alt="" />
-          <p class="my-auto mx-auto">Java</p>
+    <div class="flex items-center justify-center">
+      <div class="grid mx-auto md:grid-cols-4 grid-cols-2 gap-12 mt-20">
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/java.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Java</p>
+          </div>
         </div>
 
-        <div class="flex justify-between w-40 mx-auto">
-          <img class="w-16 h-16" src="../assets/images/icons/html.svg" alt="" />
-          <p class="my-auto mx-auto">HTML</p>
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/python.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Python</p>
+          </div>
         </div>
 
-        <div class="flex justify-between w-40 mx-auto">
-          <img class="w-16 h-16" src="../assets/images/icons/cpp.svg" alt="" />
-          <p class="my-auto mx-auto">C/C++</p>
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/html.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">HTML</p>
+          </div>
         </div>
-        <div class="flex justify-between w-40 mx-auto">
-          <img
-            class="w-16 h-16"
-            src="../assets/images/icons/laravel.svg"
-            alt=""
-          />
-          <p class="my-auto mx-auto">Laravel</p>
-        </div>
-        <div class="flex justify-between w-40 mx-auto">
-          <img
-            class="w-16 h-16"
-            src="../assets/images/icons/github.svg"
-            alt=""
-          />
-          <p class="my-auto mx-auto">Github</p>
-        </div>
-      </div>
 
-      <div
-        class="space-y-6 mt-14 text-lg rounded-xl md:px-32 py-10 shadow-pink shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] dark:bg-slate-50 dark:text-black"
-      >
-        <div class="flex justify-between w-40 mx-auto">
-          <img
-            class="w-16 h-16"
-            src="../assets/images/icons/python.svg"
-            alt=""
-          />
-          <p class="my-auto mx-auto">Python</p>
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/css.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">CSS</p>
+          </div>
         </div>
-        <div class="flex justify-between w-40 mx-auto">
-          <img class="w-16 h-16" src="../assets/images/icons/css.svg" alt="" />
-          <p class="my-auto mx-auto">CSS</p>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/cpp.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">C/C++</p>
+          </div>
         </div>
-        <div class="flex justify-between w-40 mx-auto">
-          <img class="w-16 h-16" src="../assets/images/icons/sql.svg" alt="" />
-          <p class="my-auto mx-auto">SQL</p>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/sql.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">My SQL</p>
+          </div>
         </div>
-        <div class="flex justify-between w-40 mx-auto">
-          <img class="w-16 h-16" src="../assets/images/icons/vue.svg" alt="" />
-          <p class="my-auto mx-auto">VueJS</p>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/laravel.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Laravel</p>
+          </div>
         </div>
-        <div class="flex justify-between w-40 mx-auto">
-          <img
-            class="w-16 h-16"
-            src="../assets/images/icons/postman.svg"
-            alt=""
-          />
-          <p class="my-auto mx-auto">Postman</p>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/vue.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">VueJs</p>
+          </div>
+        </div>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/github.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Github</p>
+          </div>
+        </div>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/postman.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Postman</p>
+          </div>
         </div>
       </div>
     </div>
@@ -872,15 +937,16 @@
   <!-- Footer -->
 
   <footer class="bg-background">
-    <div class="container grid gap-8 px-6 py-32 mx-auto lg:grid-cols-3" id="contact">
+    <div
+      class="container grid gap-8 px-6 py-32 mx-auto lg:grid-cols-3"
+      id="contact"
+    >
       <div>
         <p class="font-medium text-pink text-lg">Contact Me</p>
 
         <h1 class="mt-2 text-2xl font-semibold text-white md:text-6xl">
           Get In touch
         </h1>
-
-      
       </div>
 
       <div class="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2">
@@ -905,9 +971,9 @@
           <h2
             class="mt-4 text-base font-medium text-gray-800 dark:text-gray-300"
           >
-           Contact by Gmail
+            Contact by Gmail
           </h2>
-         
+
           <a
             href="mailto:Tonnawapon.l@gmail.com?subject = Feedback&body = Message"
             class="mt-2 text-sm text-blue-500 dark:text-blue-400"
@@ -937,9 +1003,9 @@
           <h2
             class="mt-4 text-base font-medium text-gray-800 dark:text-gray-300"
           >
-          Contact by Tels
+            Contact by Tels
           </h2>
-         
+
           <a
             href="tel:097-136-0391"
             class="mt-2 text-sm text-blue-500 dark:text-blue-400"
@@ -989,7 +1055,7 @@
           >
             Facebook
           </h2>
-         
+
           <a
             href="https://www.facebook.com/profile.php?id=100010132532262"
             class="mt-2 text-sm text-blue-500 dark:text-blue-400"
@@ -1013,7 +1079,7 @@
           >
             Line
           </h2>
-          
+
           <a
             data-modal-target="popup-modal"
             data-modal-toggle="popup-modal"
@@ -1056,15 +1122,16 @@
           </svg>
           <span class="sr-only">Close modal</span>
         </button>
-          <img src="../assets/images/line-qr.png" class=" pt-20 px-20 py-10" />
-          <div class="flex items-center justify-center"><button
+        <img src="../assets/images/line-qr.png" class="pt-20 px-20 py-10" />
+        <div class="flex items-center justify-center">
+          <button
             type="button"
             class="py-2 px-14 mb-6 bg-pink rounded-lg text-slate-200"
             data-modal-hide="popup-modal"
           >
             Close
-          </button></div>
-          
+          </button>
+        </div>
       </div>
     </div>
   </div>
