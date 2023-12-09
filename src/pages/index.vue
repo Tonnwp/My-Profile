@@ -222,16 +222,16 @@
   <!-- Language and Tools End -->
 
   <!-- Project -->
-  <div class="" id="projects"></div>
+  <div class="" ></div>
   <!-- First Project -->
-  <section class="bg-gray-50 dark">
+  <section class="bg-gray-50 dark mt-32" id="projects">
     <div
-      class="pb-52 pt-32 max-w-7xl mx-auto px-10 mt-20"
+      class="pb-52  max-w-7xl mx-auto px-10 pt-20"
       v-motion-slide-visible-once-bottom
       :delay="500"
     >
-      <p class="text-center text-4xl text-blue font-black">PROJECTS</p>
-      <div class="md:flex justify-between mt-20 md:space-x-10 w-full">
+      <p class="text-center text-4xl text-blue font-black mt-10">PROJECTS</p>
+      <div class="md:flex justify-between mt-32 md:space-x-10 w-full">
         <div class="md:w-1/2 mb-10 space-y-2 dark:text-black">
           <h1 class="text-2xl text-pink font-extrabold">JAVA PROJECT</h1>
           <h3 class="text-lg">
@@ -950,7 +950,7 @@
       </div>
 
       <div class="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2">
-        <div class="p-4 rounded-lg bg-pink-50 md:p-6 dark:bg-gray-800">
+        <div class="p-4 rounded-lg bg-white md:p-6 dark:bg-gray-800">
           <span class="inline-block p-3 text-blue-500 rounded-lg bg-pink/30">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -982,7 +982,7 @@
           </a>
         </div>
 
-        <div class="p-4 rounded-lg bg-pink-50 md:p-6 dark:bg-gray-800">
+        <div class="p-4 rounded-lg bg-white md:p-6 dark:bg-gray-800">
           <span class="inline-block p-3 text-blue-500 rounded-lg bg-pink/30">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -1014,7 +1014,7 @@
           </a>
         </div>
 
-        <div class="p-4 rounded-lg bg-pink-50 md:p-6 dark:bg-gray-800">
+        <div class="p-4 rounded-lg bg-white md:p-6 dark:bg-gray-800">
           <span class="inline-block p-3 text-blue-500 rounded-lg bg-pink/30">
             <svg
               class="w-8 h-8"
@@ -1065,7 +1065,7 @@
           </a>
         </div>
 
-        <div class="p-4 rounded-lg bg-pink-50 md:p-6 dark:bg-gray-800">
+        <div class="p-4 rounded-lg bg-white md:p-6 dark:bg-gray-800">
           <span class="inline-block p-3 text-blue-500 rounded-lg bg-pink/30">
             <img
               src="../assets/images/icons/line-svg.svg"
