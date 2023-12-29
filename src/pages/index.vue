@@ -145,10 +145,23 @@
           <div class="">
             <img
               class="md:w-24 md:h-24 mx-auto w-16 h-16"
-              src="../assets/images/icons/tailwind.svg"
+              src="../assets/images/icons/typescript.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Tailwind</p>
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">TypeScript</p>
+          </div>
+        </div>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/sql.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">My SQL</p>
           </div>
         </div>
 
