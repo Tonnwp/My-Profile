@@ -158,10 +158,10 @@
           <div class="">
             <img
               class="md:w-24 md:h-24 mx-auto w-16 h-16"
-              src="../assets/images/icons/sql.svg"
+              src="../assets/images/icons/tailwind.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">My SQL</p>
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Tailwind</p>
           </div>
         </div>
 
@@ -240,6 +240,19 @@
               alt=""
             />
             <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Postman</p>
+          </div>
+        </div>
+
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/docker.svg"
+              alt=""
+            />
+            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Docker</p>
           </div>
         </div>
       </div>
@@ -1001,10 +1014,10 @@
           </h2>
 
           <a
-            href="mailto:Tonnawapon.l@gmail.com?subject = Feedback&body = Message"
+            href="mailto:tonnawapon.l@gmail.com?subject = Feedback&body = Message"
             class="mt-2 text-sm text-blue-500 dark:text-blue-400"
           >
-            Tonnawapon.l@gmail.com
+            tonnawapon.l@gmail.com
           </a>
         </div>
 
@@ -1114,6 +1127,7 @@
             Click For QR
           </a>
         </div>
+        
       </div>
     </div>
   </footer>
