@@ -1,5 +1,4 @@
 <template>
-  
   <nav class="bg-white sticky top-0 z-50 border-b border-pink">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-6"
@@ -79,9 +78,9 @@
   </svg>
 
   <!-- Language and Tools -->
-  <div class="mb-24 "  id="tools"></div>
+  <div class="mb-24" id="tools"></div>
 
-  <section class="max-w-7xl mx-auto px-10 mt-10" >
+  <section class="max-w-7xl mx-auto px-10 mt-10">
     <p class="text-center text-4xl text-blue">
       Language <span class="text-slate-600 dark:text-white">And</span>
       <span class="text-pink"> DevTools</span>
@@ -97,7 +96,7 @@
               src="../assets/images/icons/java.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Java</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">Java</p>
           </div>
         </div>
 
@@ -110,7 +109,7 @@
               src="../assets/images/icons/python.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Python</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">Python</p>
           </div>
         </div>
 
@@ -123,7 +122,7 @@
               src="../assets/images/icons/html.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">HTML</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">HTML</p>
           </div>
         </div>
 
@@ -136,7 +135,7 @@
               src="../assets/images/icons/css.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">CSS</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">CSS</p>
           </div>
         </div>
 
@@ -149,7 +148,9 @@
               src="../assets/images/icons/typescript.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">TypeScript</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">
+              TypeScript
+            </p>
           </div>
         </div>
 
@@ -162,7 +163,9 @@
               src="../assets/images/icons/tailwind.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Tailwind</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">
+              Tailwind
+            </p>
           </div>
         </div>
 
@@ -175,7 +178,7 @@
               src="../assets/images/icons/cpp.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">C/C++</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">C/C++</p>
           </div>
         </div>
 
@@ -188,7 +191,7 @@
               src="../assets/images/icons/sql.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">My SQL</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">My SQL</p>
           </div>
         </div>
 
@@ -201,7 +204,9 @@
               src="../assets/images/icons/laravel.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Laravel</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">
+              Laravel
+            </p>
           </div>
         </div>
 
@@ -214,7 +219,7 @@
               src="../assets/images/icons/vue.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">VueJs</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">VueJs</p>
           </div>
         </div>
 
@@ -227,7 +232,7 @@
               src="../assets/images/icons/github.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Github</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">Github</p>
           </div>
         </div>
 
@@ -240,7 +245,9 @@
               src="../assets/images/icons/postman.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Postman</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">
+              Postman
+            </p>
           </div>
         </div>
 
@@ -253,7 +260,7 @@
               src="../assets/images/icons/docker.svg"
               alt=""
             />
-            <p class=" text-center mt-4 font-bold md:text-2xl text-xl">Docker</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">Docker</p>
           </div>
         </div>
       </div>
@@ -262,11 +269,11 @@
   <!-- Language and Tools End -->
 
   <!-- Project -->
-  <div class="" ></div>
+  <div class=""></div>
   <!-- First Project -->
   <section class="bg-gray-50 dark mt-32" id="projects">
     <div
-      class="pb-52  max-w-7xl mx-auto px-10 pt-20"
+      class="pb-52 max-w-7xl mx-auto px-10 pt-20"
       v-motion-slide-visible-once-bottom
       :delay="500"
     >
@@ -297,6 +304,17 @@
               Write code to save data to a CSV file for data storage, and create
               models and various functions to be used for displaying on the UI.
             </li>
+            <div>
+              <span class="text-xl text-pink"
+                >Source Code ->
+                <a href="https://github.com/Tonnwp/WeHereToHelp"
+                target="_blank"
+                  ><img
+                    src="../assets/images/icons/github.svg"
+                    alt="github"
+                    class="w-10 h-10 ml-3 inline-block" /></a
+              ></span>
+            </div>
           </ul>
         </div>
 
@@ -603,6 +621,17 @@
               on the UI. Also, design a database to ensure complete data
               storage.
             </li>
+            <div>
+              <span class="text-xl text-pink"
+                >Source Code ->
+                <a href="https://github.com/naiithink/ku-2023-01418442-nak-muay"
+                target="_blank"
+                  ><img
+                    src="../assets/images/icons/github.svg"
+                    alt="github"
+                    class="w-10 h-10 ml-3 inline-block" /></a
+              ></span>
+            </div>
           </ul>
         </div>
       </div>
@@ -634,6 +663,17 @@
               backend to ensure the application functions according to the
               planned design.
             </li>
+            <div>
+              <span class="text-xl text-pink"
+                >Source Code ->
+                <a href="https://github.com/orgs/Golden-Tiara/repositories"
+                target="_blank"
+                  ><img
+                    src="../assets/images/icons/github.svg"
+                    alt="github"
+                    class="w-10 h-10 ml-3 inline-block" /></a
+              ></span>
+            </div>
           </ul>
         </div>
 
@@ -959,11 +999,23 @@
             <li>Design a KU Nisit application</li>
             <li>Create more features that useful for Nisit KU</li>
             <li class="">Pitching</li>
+            <div>
+              <span class="text-xl text-pink"
+                >Source Design ->
+                <a href="https://www.figma.com/file/rnMSuwIhEeXiZKFNWLhnwz/AppNisitKU?type=design&node-id=2%3A12&mode=design&t=PoeLttNkcKTB05bc-1"
+                target="_blank"
+                  ><img
+                    src="../assets/images/icons/figma.svg"
+                    alt="github"
+                    class="w-10 h-10 ml-3 inline-block" /></a
+              ></span>
+            </div>
           </ul>
         </div>
       </div>
     </div>
   </section>
+  <!-- End Fourth Project -->
 
   <!-- final project -->
   <section class="bg-gray-50 dark">
@@ -974,12 +1026,13 @@
             WEB APPLICATION FINAL PROJECT
           </h1>
           <h3 class="text-lg">
-            Under Development
+            This web application project involves creating a E-Commerce platform
+            by ReactJs NodeJs Tailwind MySQL and Postman(API).
           </h3>
 
-          <!-- <ul class="list-disc space-y-2 max-w-xl ml-4">
-            <li>Design and develop a modern and minimalist UI</li>
-            <li>
+          <ul class="list-disc space-y-2 max-w-xl ml-4">
+            <li>Under development</li>
+            <!-- <li>
               Utilize Postman to retrieve data from the backend and display it
               on the UI.
             </li>
@@ -987,171 +1040,16 @@
               Check for bugs and validate the connection between frontend and
               backend to ensure the application functions according to the
               planned design.
-            </li>
-          </ul> -->
-          
+            </li> -->
+          </ul>
         </div>
 
-        <div
-          id="default-carousel"
-          class="relative md:w-1/2"
-          data-carousel="slide"
-        >
-          <!-- Carousel wrapper -->
-          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-            <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src=" ../assets/images/projects/webapp/goldenTiara/web_5.png"
-                class="absolute block w-full h-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-            <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src=" ../assets/images/projects/webapp/goldenTiara/web_6.png"
-                class="absolute block w-full h-full object-fill rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src=" ../assets/images/projects/webapp/goldenTiara/web_7.png"
-                class="absolute block w-full h-full object-fill rounded-lg -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src=" ../assets/images/projects/webapp/goldenTiara/web_8.png"
-                class="absolute block w-full h-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src=" ../assets/images/projects/webapp/goldenTiara/web_9.png"
-                class="absolute block w-full h-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src=" ../assets/images/projects/webapp/goldenTiara/web_10.png"
-                class="absolute block w-full h-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-          </div>
-          <!-- Slider indicators -->
-          <div
-            class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
-          >
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="true"
-              aria-label="Slide 1"
-              data-carousel-slide-to="0"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 2"
-              data-carousel-slide-to="1"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 3"
-              data-carousel-slide-to="2"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 4"
-              data-carousel-slide-to="3"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 5"
-              data-carousel-slide-to="4"
-            ></button>
-            <button
-              type="button"
-              class="w-3 h-3 rounded-full"
-              aria-current="false"
-              aria-label="Slide 6"
-              data-carousel-slide-to="5"
-            ></button>
-          </div>
-          <!-- Slider controls -->
-          <button
-            type="button"
-            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-prev
-          >
-            <span
-              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-            >
-              <svg
-                class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 6 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M5 1 1 5l4 4"
-                />
-              </svg>
-              <span class="sr-only">Previous</span>
-            </span>
-          </button>
-          <button
-            type="button"
-            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-next
-          >
-            <span
-              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-            >
-              <svg
-                class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 6 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="m1 9 4-4-4-4"
-                />
-              </svg>
-              <span class="sr-only">Next</span>
-            </span>
-          </button>
-        </div>
+        
       </div>
     </div>
   </section>
-  
-  <!-- End Fourth Project -->
+
+  <!-- End Final Project -->
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path
@@ -1315,7 +1213,6 @@
             Click For QR
           </a>
         </div>
-        
       </div>
     </div>
   </footer>
@@ -1371,26 +1268,26 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const activeSection = ref(""); // Add a reactive variable to track the active section
+const activeSection = ref("");
 
 const ClickToAbout = () => {
   scrollToSection("about-me");
-  activeSection.value = "about-me"; // Update the active section
+  activeSection.value = "about-me";
 };
 
 const ClickToTools = () => {
   scrollToSection("tools");
-  activeSection.value = "tools"; // Update the active section
+  activeSection.value = "tools";
 };
 
 const ClickToProjects = () => {
   scrollToSection("projects");
-  activeSection.value = "projects"; // Update the active section
+  activeSection.value = "projects";
 };
 
 const ClickToContact = () => {
   scrollToSection("contact");
-  activeSection.value = "contact"; // Update the active section
+  activeSection.value = "contact";
 };
 
 const scrollToSection = (sectionId) => {
