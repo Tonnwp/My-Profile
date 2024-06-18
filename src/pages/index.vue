@@ -28,6 +28,16 @@
               Tools
             </button>
           </li>
+          
+          <li>
+            <button
+              @click="ClickToExperience"
+              :class="{ 'active-button': activeSection === 'experience' }"
+              class="block py-2 px-3 {{ experienceButtonColor }} text-gray-900 hover:text-pink rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+            >
+              Experience
+            </button>
+          </li>
           <li>
             <button
               @click="ClickToProjects"
@@ -263,15 +273,72 @@
             <p class="text-center mt-4 font-bold md:text-2xl text-xl">Docker</p>
           </div>
         </div>
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/sap.svg"
+              alt=""
+            />
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">SAP</p>
+          </div>
+        </div>
+        <div
+          class="transform flex items-center justify-center rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-md shadow-blue dark:shadow-pin transition duration-300 hover:-translate-y-4 dark:bg-slate-50 dark:text-black dark:shadow-pink"
+        >
+          <div class="">
+            <img
+              class="md:w-24 md:h-24 mx-auto w-16 h-16"
+              src="../assets/images/icons/sapui5.svg"
+              alt=""
+            />
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">SAP UI5</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <!-- Language and Tools End -->
 
+  <!-- Work experience -->
+  <section id="experience">
+    <div class="bg-gray-50">
+    <div class="mt-32 max-w-7xl mx-auto px-20 pt-10 ">
+      <div class="pb-20 px-10 pt-10 " v-motion-slide-visible-once-bottom>
+        <p class="text-pink text-center text-4xl  font-extrabold ">WORK EXPERIENCE</p>
+        <div class="md:flex justify-between  items-center px-20 py-10 mt-20 md:space-x-10 w-full rounded-xl border border-pink">
+           <!-- Image -->
+        <div class="md:w-1/4 flex justify-center ">
+          <img src="../assets//images/icons/axons.svg" alt="" >
+        </div>
+        <!-- info -->
+        
+        <div class="md:w-3/4  space-y-2 dark:text-black ">
+          
+          <h3 class="text-xl text-blue "> SAP ABAP DEVELOPER </h3>
+          <h2 class="">I'm interning in the SAP ABAP position at AXONS Corporate for a duration of six months. My main responsibilities is</h2>
+          <ul class="list-disc space-y-2 max-w-xl ml-4">
+            <li>Developing SAP programs</li>
+            <li>Maintaining SAP programs</li>
+            <li>Implementing SAP programs in real production environments</li>
+            <li>Creating Smart Forms</li>
+            <li>Managing databases</li>
+          </ul>
+        </div>
+        
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- End Work Experience -->
+
   <!-- Project -->
-  <div class=""></div>
   <!-- First Project -->
-  <section class="bg-gray-50 dark mt-32" id="projects">
+  <section class="  mt-32" id="projects">
     <div
       class="pb-52 max-w-7xl mx-auto px-10 pt-20"
       v-motion-slide-visible-once-bottom
@@ -458,7 +525,7 @@
   <!-- End First Project -->
 
   <!-- Second Project -->
-  <section>
+  <section class="bg-gray-50">
     <div class="max-w-7xl mx-auto px-10" v-motion-slide-visible-once-bottom>
       <div class="md:flex justify-between py-52 md:space-x-10 w-full">
         <div
@@ -640,7 +707,7 @@
   <!-- End Second Project -->
 
   <!-- Third Project -->
-  <section class="bg-gray-50 dark">
+  <section class=" dark">
     <div class="max-w-7xl mx-auto px-10" v-motion-slide-visible-once-bottom>
       <div class="md:flex justify-between py-52 md:space-x-10 w-full">
         <div class="md:w-1/2 mb-10 space-y-2 dark:text-black">
@@ -838,7 +905,7 @@
   <!-- End Third Project -->
 
   <!-- Fourth Project -->
-  <section>
+  <section class="bg-gray-50"> 
     <div class="max-w-7xl mx-auto px-10" v-motion-slide-visible-once-bottom>
       <div class="md:flex justify-between py-32 md:space-x-10 w-full">
         <div
@@ -1018,7 +1085,7 @@
   <!-- End Fourth Project -->
 
   <!-- final project -->
-  <section class="bg-gray-50 dark">
+  <section class="dark">
     <div class="max-w-7xl mx-auto px-10" v-motion-slide-visible-once-bottom>
       <div class="md:flex justify-between py-52 md:space-x-10 w-full">
         <div class="md:w-1/2 mb-10 space-y-2 dark:text-black">
@@ -1290,6 +1357,11 @@ const ClickToContact = () => {
   activeSection.value = "contact";
 };
 
+const ClickToExperience = () => {
+  scrollToSection("experience");
+  activeSection.value = "experience";
+};
+
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
   if (section) {
@@ -1298,9 +1370,3 @@ const scrollToSection = (sectionId) => {
 };
 </script>
 
-<style scoped>
-/* Add styles for the active button */
-.active-button {
-  color: #ff007f; /* Change this to your desired active color */
-}
-</style>
