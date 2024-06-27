@@ -28,7 +28,7 @@
               Tools
             </button>
           </li>
-          
+
           <li>
             <button
               @click="ClickToExperience"
@@ -65,13 +65,11 @@
     <div class="max-w-7xl mx-auto px-10">
       <div class="md:flex justify-evenly pt-10 items-center">
         <div class="space-y-2 text-white">
-          <h1 class="font-lato text-4xl text-pink text-center">
-            HI, I'm <br />
-            Ton Nawapon
-          </h1>
+          <div class="flex justify-center items-center">
+            <h1 id="typewriter" class="text-4xl text-pink font-bold"></h1>
+          </div>
           <p class="text-center">
-            I am Computer Science Student.<br />I'm interest intership in
-            Software Engineering.
+            I am Computer Science Student.
           </p>
         </div>
         <img src="../assets/images/ton.png" class="mt-10 md:mt-0" alt="" />
@@ -294,7 +292,9 @@
               src="../assets/images/icons/sapui5.svg"
               alt=""
             />
-            <p class="text-center mt-4 font-bold md:text-2xl text-xl">SAP UI5</p>
+            <p class="text-center mt-4 font-bold md:text-2xl text-xl">
+              SAP UI5
+            </p>
           </div>
         </div>
       </div>
@@ -305,40 +305,46 @@
   <!-- Work experience -->
   <section id="experience">
     <div class="bg-gray-50">
-    <div class="mt-32 max-w-7xl mx-auto px-20 pt-10 ">
-      <div class="pb-20 px-10 pt-10 " v-motion-slide-visible-once-bottom>
-        <p class="text-pink text-center text-4xl  font-extrabold ">WORK EXPERIENCE</p>
-        <div class="md:flex justify-between  items-center px-20 py-10 mt-20 md:space-x-10 w-full rounded-xl border border-pink">
-           <!-- Image -->
-        <div class="md:w-1/4 flex justify-center ">
-          <img src="../assets//images/icons/axons.svg" alt="" >
+      <div class="mt-32 max-w-7xl mx-auto px-20 pt-10">
+        <div class="pb-20 px-10 pt-10" v-motion-slide-visible-once-bottom>
+          <p class="text-pink text-center text-4xl font-extrabold">
+            WORK EXPERIENCE
+          </p>
+          <div
+            class="md:flex justify-between items-center px-20 py-10 mt-20 md:space-x-10 w-full rounded-xl border border-pink"
+          >
+            <!-- Image -->
+            <div class="md:w-1/4 flex justify-center">
+              <img src="../assets//images/icons/axons.svg" alt="" />
+            </div>
+            <!-- info -->
+
+            <div class="md:w-3/4 space-y-2 dark:text-black">
+              <h3 class="text-xl text-blue">SAP ABAP DEVELOPER</h3>
+              <h2 class="">
+                I'm interning in the SAP ABAP position at AXONS Corporate for a
+                duration of six months. My main responsibilities is
+              </h2>
+              <ul class="list-disc space-y-2 max-w-xl ml-4">
+                <li>Developing SAP programs</li>
+                <li>Maintaining SAP programs</li>
+                <li>
+                  Implementing SAP programs in real production environments
+                </li>
+                <li>Creating Smart Forms</li>
+                <li>Managing databases</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <!-- info -->
-        
-        <div class="md:w-3/4  space-y-2 dark:text-black ">
-          
-          <h3 class="text-xl text-blue "> SAP ABAP DEVELOPER </h3>
-          <h2 class="">I'm interning in the SAP ABAP position at AXONS Corporate for a duration of six months. My main responsibilities is</h2>
-          <ul class="list-disc space-y-2 max-w-xl ml-4">
-            <li>Developing SAP programs</li>
-            <li>Maintaining SAP programs</li>
-            <li>Implementing SAP programs in real production environments</li>
-            <li>Creating Smart Forms</li>
-            <li>Managing databases</li>
-          </ul>
-        </div>
-        
       </div>
-      </div>
-      
     </div>
-  </div>
-</section>
-<!-- End Work Experience -->
+  </section>
+  <!-- End Work Experience -->
 
   <!-- Project -->
   <!-- First Project -->
-  <section class="  mt-32" id="projects">
+  <section class="mt-32" id="projects">
     <div
       class="pb-52 max-w-7xl mx-auto px-10 pt-20"
       v-motion-slide-visible-once-bottom
@@ -374,8 +380,7 @@
             <div>
               <span class="text-xl text-pink"
                 >Source Code ->
-                <a href="https://github.com/Tonnwp/WeHereToHelp"
-                target="_blank"
+                <a href="https://github.com/Tonnwp/WeHereToHelp" target="_blank"
                   ><img
                     src="../assets/images/icons/github.svg"
                     alt="github"
@@ -691,8 +696,9 @@
             <div>
               <span class="text-xl text-pink"
                 >Source Code ->
-                <a href="https://github.com/naiithink/ku-2023-01418442-nak-muay"
-                target="_blank"
+                <a
+                  href="https://github.com/naiithink/ku-2023-01418442-nak-muay"
+                  target="_blank"
                   ><img
                     src="../assets/images/icons/github.svg"
                     alt="github"
@@ -707,7 +713,7 @@
   <!-- End Second Project -->
 
   <!-- Third Project -->
-  <section class=" dark">
+  <section class="dark">
     <div class="max-w-7xl mx-auto px-10" v-motion-slide-visible-once-bottom>
       <div class="md:flex justify-between py-52 md:space-x-10 w-full">
         <div class="md:w-1/2 mb-10 space-y-2 dark:text-black">
@@ -733,8 +739,9 @@
             <div>
               <span class="text-xl text-pink"
                 >Source Code ->
-                <a href="https://github.com/orgs/Golden-Tiara/repositories"
-                target="_blank"
+                <a
+                  href="https://github.com/orgs/Golden-Tiara/repositories"
+                  target="_blank"
                   ><img
                     src="../assets/images/icons/github.svg"
                     alt="github"
@@ -905,7 +912,7 @@
   <!-- End Third Project -->
 
   <!-- Fourth Project -->
-  <section class="bg-gray-50"> 
+  <section class="bg-gray-50">
     <div class="max-w-7xl mx-auto px-10" v-motion-slide-visible-once-bottom>
       <div class="md:flex justify-between py-32 md:space-x-10 w-full">
         <div
@@ -1069,8 +1076,9 @@
             <div>
               <span class="text-xl text-pink"
                 >Source Design ->
-                <a href="https://www.figma.com/file/rnMSuwIhEeXiZKFNWLhnwz/AppNisitKU?type=design&node-id=2%3A12&mode=design&t=PoeLttNkcKTB05bc-1"
-                target="_blank"
+                <a
+                  href="https://www.figma.com/file/rnMSuwIhEeXiZKFNWLhnwz/AppNisitKU?type=design&node-id=2%3A12&mode=design&t=PoeLttNkcKTB05bc-1"
+                  target="_blank"
                   ><img
                     src="../assets/images/icons/figma.svg"
                     alt="github"
@@ -1110,8 +1118,6 @@
             </li> -->
           </ul>
         </div>
-
-        
       </div>
     </div>
   </section>
@@ -1333,40 +1339,90 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const activeSection = ref("");
 
-const ClickToAbout = () => {
+const ClickToAbout = (): void => {
   scrollToSection("about-me");
   activeSection.value = "about-me";
 };
 
-const ClickToTools = () => {
+const ClickToTools = (): void => {
   scrollToSection("tools");
   activeSection.value = "tools";
 };
 
-const ClickToProjects = () => {
+const ClickToProjects = (): void => {
   scrollToSection("projects");
   activeSection.value = "projects";
 };
 
-const ClickToContact = () => {
+const ClickToContact = (): void => {
   scrollToSection("contact");
   activeSection.value = "contact";
 };
 
-const ClickToExperience = () => {
+const ClickToExperience = (): void => {
   scrollToSection("experience");
   activeSection.value = "experience";
 };
 
-const scrollToSection = (sectionId) => {
+const scrollToSection = (sectionId: string): void => {
   const section = document.getElementById(sectionId);
   if (section) {
     section.scrollIntoView({ behavior: "smooth" });
   }
 };
+
+
+// type writter
+const words: string[] = ["Hi, My name is Ton", "Welcome to my website!"];
+let i: number = 0;
+let j: number = 0;
+let currentWord: string = "";
+let isDeleting: boolean = false;
+let isPaused: boolean = false;
+let delay: number = 100;
+
+function type(): void {
+  currentWord = words[i];
+  const typewriterElement = document.getElementById("typewriter");
+
+  if (typewriterElement) {
+    if (isDeleting) {
+      typewriterElement.textContent = currentWord.substring(0, j - 1);
+      j--;
+      if (j === 0) {
+        isDeleting = false;
+        i++;
+        if (i === words.length) {
+          i = 0;
+        }
+        delay = 100; // Reset the delay after deleting
+      }
+    } else {
+      typewriterElement.textContent = currentWord.substring(0, j + 1);
+      j++;
+      if (j === currentWord.length) {
+        isDeleting = true;
+        isPaused = true; // Set the paused flag to true
+        setTimeout(() => {
+          isPaused = false; // Reset the paused flag after 1 second
+          type();
+        }, 1000);
+        return; // Exit the function to avoid further execution
+      }
+    }
+    if (!isPaused) {
+      setTimeout(type, delay);
+    }
+  }
+}
+
+onMounted((): void => {
+  type();
+});
 </script>
+
 
